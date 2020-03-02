@@ -6,3 +6,14 @@ body {
 h1, p {
 	color: #FF8B33;
 }
+
+h1 {
+	font-size : 66px;
+}
+
+p{
+
+}
+ li {
+ 	font-style:  italic;
+ }
