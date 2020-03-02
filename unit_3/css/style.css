@@ -8,7 +8,7 @@ h1, p {
 }
 
 h1 {
-	font-size : 66px;
+	font-size: 66px;
 }
 
 p{
@@ -17,3 +17,8 @@ p{
  li {
  	font-style:  italic;
  }
+
+#slogan {
+	font-size: 35px;
+	font-style: bold;
+}
