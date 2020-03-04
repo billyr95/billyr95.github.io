@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+
+body {
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1, p {
+	color: #FF8B33;
+	font-family: 'Oxanium', cursive;
+}
+
+h1 {
+	font-size: 66px;
+}
+
+p{
+
+}
+ li {
+ 	font-style:  italic;
+ }
+
+#slogan {
+	font-size: 35px;
+	font-style: italic;
+}
