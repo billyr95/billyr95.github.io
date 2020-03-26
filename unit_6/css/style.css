@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+
+body {
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1, p {
+	color: #FFFFFF;
+	font-family: 'Oxanium', cursive;
+}
+
+h1 {
+	font-size: 66px;
+}
+
+p{
+
+}
+ li {
+ 	font-style:  italic;
+ }
+
+#slogan {
+	font-size: 35px;
+	font-style: italic;
+}
+header {
+	background-color: #FFED74;
+}
+nav {
+	background-color: #e8C66A;
+}
+aside {
+	background-color: #FFC675;
+}
+article{
+	background-color: #E89C6C;
+}
+footer{
+	background-color: #FF957E;
+}
+div, section {
+	background-color: #FFE2B8;
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    width: 62%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.Slogan{
+
+}
+.Chunga{
+	width: 100px;
+}
+
+
+
+
+
