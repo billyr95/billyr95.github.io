@@ -43,13 +43,14 @@ footer{
 div, section {
 	background-color: #FFE2B8;
 }
-#two_column {
-    background-color: #FFB7CF;
+#hero {
+    background-image: url("ChungusGradient.png");
     border: 1px black solid;
     padding: 20px;
+    height: 400px
 }
 
-#left {
+#hero_title {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 20px;
@@ -59,11 +60,13 @@ div, section {
     width: 30%;
 }
 
-#right {
+#hero_byline {
     background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
-    width: 62%;
+    width: 20%;
+    float: right;
+    margin-top: 319px;
 }
 .clearfix:after {
     visibility: hidden;
@@ -79,8 +82,55 @@ div, section {
 .Chunga{
 	width: 100px;
 }
+a {
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+}
+a:hover {
+    background-color: #ffffff;
+}
+#hero_title > img {
+    float: left;
+}
+#hero_byline > h3 {
+    float: right;
+}
+#artists {
+    height: 125px;
+}
 
+#more_info {
+    width: 960px;
+    margin: 0 auto;
+}
 
+.subheadliners {
+  width: 280px;
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+}
 
+#experience {
+    width: 960px;
+    margin: 0 auto;
+}
 
+#liveperformance {
+    padding: 10px;
+    margin: 0 10px;
+    float: left;
+}
+
+#experiencepic {
+    width: 66%
+}
+
+#experiencecopy {
+    width: 33%
+}
+#subheadlinerspic > img {
+    width: 270px;
+}
 
