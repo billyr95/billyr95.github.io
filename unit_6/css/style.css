@@ -24,6 +24,7 @@ p{
 #slogan {
 	font-size: 35px;
 	font-style: italic;
+    padding-top: 2%;
 }
 header {
 	background-color: #FFED74;
@@ -40,14 +41,10 @@ article{
 footer{
 	background-color: #FF957E;
 }
-div, section {
-	background-color: #FFE2B8;
-}
+
 #hero {
-    background-image: url("ChungusGradient.png");
     border: 1px black solid;
-    padding: 20px;
-    height: 400px
+    height: 100%;
 }
 
 #hero_title {
@@ -101,7 +98,7 @@ a:hover {
 }
 
 #more_info {
-    width: 960px;
+    width: 1260px;
     margin: 0 auto;
 }
 
@@ -133,4 +130,55 @@ a:hover {
 #subheadlinerspic > img {
     width: 270px;
 }
-
+.clearfix:after {
+    display: block;
+    content: "0";
+    clear: both;
+}
+.liveperformance {
+    float: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Artists > aside > img {
+    width: 100%;
+}
+#five > img {
+    width: 100%;
+}
+video#bgvideo {
+position: absolute;
+top: 30%;
+left: 50%;
+min-width: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+video#tickervideo {
+position: absolute;
+top: 55%;
+left: 50%;
+min-width: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+#ticker_video {
+    height: 100px;
+}
