@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
 
+
 body {
 	background: rgb(238,174,202);
 	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
@@ -7,7 +8,7 @@ body {
 
 h1, p {
 	color: #FFFFFF;
-	font-family: 'Oxanium', cursive;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 h1 {
@@ -20,17 +21,23 @@ p{
  li {
  	font-style:  italic;
  }
-
+ul {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+    width: 43%;
+    margin: auto;
+    font-size: 30px;
+}
 #slogan {
-	font-size: 35px;
-	font-style: italic;
-    padding-top: 2%;
+	font-size: 30px;
+    padding-top: 5%;
+    font-family: 'Nunito Sans', sans-serif;
 }
 header {
-	background-color: #FFED74;
+	background-color: #000000;
 }
 nav {
-	background-color: #e8C66A;
+	background-color: #000000;
 }
 aside {
 	background-color: #FFC675;
@@ -100,6 +107,7 @@ a:hover {
 #more_info {
     width: 1260px;
     margin: 0 auto;
+    float: right;
 }
 
 .subheadliners {
@@ -110,7 +118,7 @@ a:hover {
 }
 
 #experience {
-    width: 960px;
+    width: 1260px;
     margin: 0 auto;
 }
 
@@ -151,7 +159,7 @@ a:hover {
 }
 video#bgvideo {
 position: absolute;
-top: 30%;
+top: 36%;
 left: 50%;
 min-width: 100%;
 width: auto;
@@ -166,10 +174,9 @@ background-size: cover;
 }
 video#tickervideo {
 position: absolute;
-top: 55%;
+top: 61%;
 left: 50%;
-min-width: 100%;
-width: auto;
+width: 100%;
 height: auto;
 z-index: -100;
 -ms-transform: translateX(-50%) translateY(-50%);
@@ -181,4 +188,11 @@ background-size: cover;
 }
 #ticker_video {
     height: 100px;
+}
+#subheadliners1 > p:nth-child(3) {
+    padding-left: 48%;
+    font-size: 36px;
+}
+#subheadliners1 > p:nth-child(1) {
+    font-size: 30px;
 }
