@@ -229,7 +229,9 @@ video#headervideo {
         width: 44%;
     }
 }
+@media only screen and (max-width: 1621px) {
 
+}
 @media only screen and (max-width: 1601px) {
     ul {
         width: 45%;
@@ -259,3 +261,58 @@ video#headervideo {
         font-size: 1.1em;
     }
 }
+
+@media only screen and (max-width: 1621px) {
+#slogan {
+    font-size: 1.8em;
+}
+#hero_title > img { 
+    width: 27%;
+    }
+}
+@media only screen and (max-width: 1577px) {
+#slogan {
+    font-size: 1.6em;
+    padding-top: 6.4%;
+}
+#hero_title > img { 
+    width: 26%;
+    }
+}
+
+@media only screen and (max-width: 1461px) {
+#slogan {
+    font-size: 1.4em;
+    padding-top: 6.5%;
+}
+#hero_title > img { 
+    width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1344px) {
+#slogan {
+    font-size: 1.2em;
+    padding-top: 6%;
+}
+@media only screen and (max-width: 1227px) {
+#slogan {
+    font-size: 1.0em;
+    padding-top: 7%;
+}
+@media only screen and (max-width: 1111px) {
+#slogan {
+    font-size: 0.8em;
+    padding-top: 7%;
+}
+@media only screen and (max-width: 995px) {
+#hero_title  {
+    width: 32%;
+}
+
+
+
+
+
+
+
