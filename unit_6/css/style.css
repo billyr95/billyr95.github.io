@@ -2,8 +2,7 @@
 
 
 body {
-	background: rgb(238,174,202);
-	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	background: #000000;
 }
 
 h1, p {
@@ -29,6 +28,7 @@ ul {
     font-size: 30px;
 }
 #slogan {
+    color: #ffffff;
 	font-size: 30px;
     padding-top: 5%;
     font-family: 'Nunito Sans', sans-serif;
@@ -52,25 +52,24 @@ footer{
 #hero {
     border: 1px black solid;
     height: 100%;
+    position: relative;
 }
 
 #hero_title {
-    background-color: #E582A2;
-    border: 1px black solid;
     padding: 20px;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 30%;
 }
 
 #hero_byline {
-    background-color: #E55B88;
-    border: 1px black solid;
     padding: 20px;
     width: 20%;
-    float: right;
-    margin-top: 319px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .clearfix:after {
     visibility: hidden;
@@ -92,13 +91,14 @@ a {
     width: 200px;
 }
 a:hover {
-    background-color: #ffffff;
+    color: #ffffff;
 }
 #hero_title > img {
     float: left;
 }
 #hero_byline > h3 {
     float: right;
+    color: #ffffff;
 }
 #artists {
     height: 125px;
@@ -108,6 +108,7 @@ a:hover {
     width: 1260px;
     margin: 0 auto;
     float: right;
+    padding-top: 40px;
 }
 
 .subheadliners {
@@ -120,6 +121,9 @@ a:hover {
 #experience {
     width: 1260px;
     margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    float: right;
 }
 
 #liveperformance {
@@ -158,33 +162,24 @@ a:hover {
     width: 100%;
 }
 video#bgvideo {
-position: absolute;
-top: 36%;
-left: 50%;
-min-width: 100%;
-width: auto;
-height: auto;
-z-index: -100;
--ms-transform: translateX(-50%) translateY(-50%);
--moz-transform: translateX(-50%) translateY(-50%);
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
-background: url(placeholder.jpg) no-repeat;
-background-size: cover;
-}
-video#tickervideo {
-position: absolute;
-top: 61%;
-left: 50%;
+position: relative;
+top: 0%;
+left: 0%;
 width: 100%;
 height: auto;
-z-index: -100;
--ms-transform: translateX(-50%) translateY(-50%);
--moz-transform: translateX(-50%) translateY(-50%);
--webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
+z-index: -1;
 background: url(placeholder.jpg) no-repeat;
-background-size: cover;
+overflow: hidden;
+}
+video#tickervideo {
+position: relative;
+top: 0%;
+left: 0%;
+width: 100%;
+height: auto;
+z-index: -1;
+background: url(placeholder.jpg) no-repeat;
+overflow: hidden;
 }
 #ticker_video {
     height: 100px;
@@ -195,4 +190,72 @@ background-size: cover;
 }
 #subheadliners1 > p:nth-child(1) {
     font-size: 30px;
+    width: 400px;
+}
+#experiencecopy {
+    padding-top: 35px;
+    font-size: 30px;
+}
+#experiencecopy > a {
+    margin-top: 20px;
+    background-color: #2EFF5F;
+    border-radius: 41px;
+    position: relative;
+    top: 30px;
+    left: 93px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#experiencecopy > p {
+    position: relative;
+    left: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+video#headervideo {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    background: url(placeholder.jpg) no-repeat;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1683px) {
+    ul {
+        width: 44%;
+    }
+}
+
+@media only screen and (max-width: 1601px) {
+    ul {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 1565px) {
+    ul {
+        width: 46%;
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 1268px) {
+    ul {
+        width: 47%;
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 1105px) {
+    ul {
+        width: 48%;
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 1014px) {
+    ul {
+        width: 49%;
+        font-size: 1.1em;
+    }
 }
