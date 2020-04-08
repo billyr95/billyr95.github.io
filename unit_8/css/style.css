@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+
+
+body {
+	background: #000000;
+}
+
+h1, p {
+	color: #FFFFFF;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+	font-size: 66px;
+}
+
+p{
+
+}
+ li {
+ 	font-style:  italic;
+ }
+ul {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+    width: 43%;
+    margin: auto;
+    font-size: 30px;
+}
+#slogan {
+    color: #ffffff;
+	font-size: 30px;
+    padding-top: 5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+header {
+	background-color: #000000;
+}
+nav {
+	background-color: #000000;
+}
+aside {
+	background-color: #FFC675;
+}
+article{
+	background-color: #E89C6C;
+}
+footer{
+	background-color: #FF957E;
+}
+
+#hero {
+    border: 1px black solid;
+    height: 100%;
+    position: relative;
+}
+
+#hero_title {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+}
+
+#hero_byline {
+    padding: 20px;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.Slogan{
+
+}
+.Chunga{
+	width: 100px;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+}
+a:hover {
+    color: #ffffff;
+}
+#hero_title > img {
+    float: left;
+}
+#hero_byline > h3 {
+    float: right;
+    color: #ffffff;
+}
+#artists {
+    height: 125px;
+}
+
+#more_info {
+    width: 1260px;
+    margin: 0 auto;
+    float: right;
+    padding-top: 40px;
+}
+
+.subheadliners {
+  width: 280px;
+  padding: 10px;
+  margin: 0 10px;
+  float: left;
+}
+
+#experience {
+    width: 1260px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    float: right;
+}
+
+#liveperformance {
+    padding: 10px;
+    margin: 0 10px;
+    float: left;
+}
+
+#experiencepic {
+    width: 66%
+}
+
+#experiencecopy {
+    width: 33%
+}
+#subheadlinerspic > img {
+    width: 270px;
+}
+.clearfix:after {
+    display: block;
+    content: "0";
+    clear: both;
+}
+.liveperformance {
+    float: left;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Artists > aside > img {
+    width: 100%;
+}
+#five > img {
+    width: 100%;
+}
+video#bgvideo {
+position: relative;
+top: 0%;
+left: 0%;
+width: 100%;
+height: auto;
+z-index: -1;
+background: url(placeholder.jpg) no-repeat;
+overflow: hidden;
+}
+video#tickervideo {
+position: relative;
+top: 0%;
+left: 0%;
+width: 100%;
+height: auto;
+z-index: -1;
+background: url(placeholder.jpg) no-repeat;
+overflow: hidden;
+}
+#ticker_video {
+    height: 100px;
+}
+#subheadliners1 > p:nth-child(3) {
+    padding-left: 48%;
+    font-size: 36px;
+}
+#subheadliners1 > p:nth-child(1) {
+    font-size: 30px;
+    width: 400px;
+}
+#experiencecopy {
+    padding-top: 35px;
+    font-size: 30px;
+}
+#experiencecopy > a {
+    margin-top: 20px;
+    background-color: #2EFF5F;
+    border-radius: 41px;
+    position: relative;
+    top: 30px;
+    left: 93px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#experiencecopy > p {
+    position: relative;
+    left: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+video#headervideo {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: auto;
+    background: url(placeholder.jpg) no-repeat;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1683px) {
+    ul {
+        width: 44%;
+    }
+}
+@media only screen and (max-width: 1621px) {
+
+}
+@media only screen and (max-width: 1601px) {
+    ul {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 1565px) {
+    ul {
+        width: 46%;
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 1268px) {
+    ul {
+        width: 47%;
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 1105px) {
+    ul {
+        width: 48%;
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 1014px) {
+    ul {
+        width: 49%;
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 1621px) {
+#slogan {
+    font-size: 1.8em;
+}
+#hero_title > img { 
+    width: 27%;
+    }
+}
+@media only screen and (max-width: 1577px) {
+#slogan {
+    font-size: 1.6em;
+    padding-top: 6.4%;
+}
+#hero_title > img { 
+    width: 26%;
+    }
+}
+
+@media only screen and (max-width: 1461px) {
+#slogan {
+    font-size: 1.4em;
+    padding-top: 6.5%;
+}
+#hero_title > img { 
+    width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1344px) {
+#slogan {
+    font-size: 1.2em;
+    padding-top: 6%;
+}
+@media only screen and (max-width: 1227px) {
+#slogan {
+    font-size: 1.0em;
+    padding-top: 7%;
+}
+@media only screen and (max-width: 1111px) {
+#slogan {
+    font-size: 0.8em;
+    padding-top: 7%;
+}
+@media only screen and (max-width: 995px) {
+#hero_title  {
+    width: 32%;
+}
+
+
+
+
+
+
+
