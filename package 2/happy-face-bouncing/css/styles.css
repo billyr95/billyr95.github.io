@@ -1,0 +1,15 @@
+.happy-face {
+  height: 500px;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+/*defining keyframes animation*/
+@keyframes bounce {
+  30% {
+    transform: translateY(-50px);
+  }
+  50% {
+  }
+}

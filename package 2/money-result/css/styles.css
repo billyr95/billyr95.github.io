@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0
+}
+
+.st0 {
+    fill: #F2DCC0;
+}
+
+.st1 {
+    fill: #61AD86;
+}
+
+.st2 {
+    fill: #6BBC95;
+}
+
+.st3 {
+    fill: #82C4A4;
+}
+
+.st4 {
+    fill: #4E8064;
+}
+
+.st5 {
+    enable-background: new;
+}
+
+.st6 {
+    fill: #FFFFFF;
+}
+
+.st7 {
+    fill: #E4C5A5;
+}
+
+.st8 {
+    fill: none;
+    stroke: #F07D22;
+    stroke-width: 65;
+    stroke-miterlimit: 10;
+}
+
+.st9 {
+    fill: #E05E26;
+}
+
+.st10 {
+    fill: #7A421C;
+}
+
+.st11 {
+    fill: #8E5623;
+}
+
+.st12 {
+    fill: none;
+    stroke: #7A421C;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+}
+
+.st13 {
+    fill: #EEB61E;
+}
+
+.st14 {
+    fill: none;
+    stroke: #C48A2B;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+#hand {
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+g#money-front-right {
+    animation-name: rotate;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+}
+
+g#money-front-left {
+    animation-name: move;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-3deg);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: translate3d(0, -30px, 0);
+    }
+}
