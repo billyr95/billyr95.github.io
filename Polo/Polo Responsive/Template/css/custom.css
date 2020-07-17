@@ -6,3 +6,16 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
+
+/*Height-above Logo <Span>*/
+#header .header-inner #logo, #header #header-wrap #logo { 
+    height: 0 !important;
+}
+/*White-Logo Nav Size*/
+#logo > a > span.logo-dark > img {
+    max-width: 20% !important;
+}
+/*Color-Logo Nav Size*/
+#logo > a > span.logo-default > img {
+    max-width: 20% !important;
+}
