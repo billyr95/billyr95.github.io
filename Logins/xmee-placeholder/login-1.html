@@ -1,0 +1,526 @@
+<!doctype html>
+<style>
+    <!---LOGIN STYLE--->
+
+    /*section*/
+
+    .loaded.fxt-template-animation {
+    opacity: 1;
+}
+.fxt-template-animation {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.7;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    color: #646464;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/*DIV CONTAINER FLUID*/
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+/*DIV ROW*/
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+/*col-md-6 col-12 fxt-bg-color*/
+
+.fxt-template-layout1 .fxt-bg-color {
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 50px 30px 42px;
+}
+@media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/*fxt-content*/
+
+.fxt-template-layout1 .fxt-content {
+    max-width: 450px;
+    width: 100%;
+}
+
+/*fxt-header*/
+
+.fxt-template-layout1 .fxt-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+/*Login Anchor*/
+
+a {
+    text-decoration: none;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*Logo Image*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+/*fxt-page-switcher*/
+
+.fxt-template-layout1 .fxt-header .fxt-page-switcher {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+/*Login Anchor Active*/
+
+.fxt-template-layout1 .fxt-header .fxt-page-switcher .switcher-text1 {
+    color: #111111;
+    font-size: 18px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #9f9f9f;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+/*Contact US anchor*/
+
+.fxt-template-layout1 .fxt-header .fxt-page-switcher .switcher-text1:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: 0;
+}
+.fxt-template-layout1 .fxt-header .fxt-page-switcher .switcher-text1 {
+    color: #111111;
+    font-size: 18px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #9f9f9f;
+    line-height: 1;
+}
+
+/*fxt-form*/
+
+.fxt-template-layout1 .fxt-form {
+    margin-bottom: 40px;
+}
+
+/*H2*/
+
+.fxt-template-layout1 .fxt-form h2 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 991px)
+h2 {
+    font-size: 24px;
+}
+@media only screen and (max-width: 1199px)
+h2 {
+    font-size: 26px;
+}
+h2 {
+    font-size: 28px;
+}
+h1, h2 {
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 20px 0;
+    color: #111;
+}
+.h2, h2 {
+    font-size: 2rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/*P*/
+
+.fxt-template-layout1 .fxt-form p {
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+p {
+    margin: 0 0 20px 0;
+    color: #646464;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*form post*/
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+/*form-group*/
+
+.fxt-template-layout1 .fxt-form .form-group {
+    position: relative;
+    z-index: 1;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+/*Background-image*/
+
+.fxt-template-layout1 .fxt-bg-img {
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.7;
+    color: #646464;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+/*form-control*/
+
+.fxt-template-layout1 .fxt-form .form-control {
+    min-height: 40px;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 30px 10px 0;
+    color: #111111;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+/*FXT-Transform*/
+
+
+/*content between*/
+
+.fxt-content-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*switcher-text*/
+
+.fxt-template-layout1 .switcher-text2 {
+    color: #9f9f9f;
+    font-size: 15px;
+    margin-top: 5px;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+
+/*button*/
+
+.fxt-template-layout1 .fxt-btn-fill {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: none;
+    outline: none;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #ff0000;
+    padding: 10px 36px;
+    margin-bottom: 10px;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+
+button {
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px 7px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+
+/*section*/
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/*section*/
+
+</style>
+    <section class="fxt-template-animation fxt-template-layout1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-12 fxt-bg-color">
+                    <div class="fxt-content">
+                        <div class="fxt-header">
+                            <a href="login-1.html" class="fxt-logo"><img src="img/logo-1.png" alt="Logo"></a>
+                            <div class="fxt-page-switcher">
+                                <a href="login-1.html" class="switcher-text1 active">Log In</a>
+                                <a href="register-1.html" class="switcher-text1">Register</a>
+                            </div>
+                        </div>
+                        <div class="fxt-form">
+                            <h2>Log In</h2>     
+                            <p>Log in to continue in our website</p>
+                            <form method="POST">
+                                <div class="form-group">                             
+                                        <p>Email:</p>
+                                        <div class="form-control">[Username Label="Username"]</div>
+                                </div>
+                                <div class="form-group">                                                        
+                                        <p>Password:</p>
+                                        <div class="form-control">[Password Label="Password"]</div>
+                             
+                                </div>
+                                <div class="form-group">
+                
+                                        <div class="fxt-content-between">
+                                            <a href="#" class="switcher-text2">[ResetPassword Caption="Forget your password?" ToolTip="Click to request new password"]</a>
+                                            <button type="submit" class="fxt-btn-fill" value="" name="">[LoginButton Caption="Login" ToolTip="Click to login"]</button>
+                                        </div>
+                                        [LoginError]
+                                </div>
+                            </form>                            
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 fxt-none-767 fxt-bg-img" data-bg-image="img/figure/bg1-l.jpg"></div>
+            </div>
+        </div>
+    </section>
