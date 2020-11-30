@@ -1,0 +1,1 @@
+  11/29/20 11:28:54 PM EST: Starting composition “Comp 1”.  Output To: /Users/briley/Desktop/Giftest/ME.mov    11/29/20 11:29:38 PM EST: Finished composition “Comp 1”.  Total Time Elapsed: 44 SecondsLog closed on 11/29/20 at 11:29:39 PM EST
