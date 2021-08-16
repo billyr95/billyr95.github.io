@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+  <div class="img-slider">
+      <div class="slide active">
+          <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/1/FN_Picky-Eaters-Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.616.462.suffix/1383770571120.jpeg" alt="">
+          <div class="circle-element"></div>
+          <div class="info">
+              <p>Stop wonder who's buying your product</p>
+              <h2>Start getting to know them.</h2>
+              <p class="CTA-Button"><a href="#">Get a free demo</a></p>
+          </div>
+      </div>
+      <div class="slide">
+        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/4/8/4/WU1004H_Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.616.462.suffix/1428675741536.jpeg" alt="">
+        <div class="circle-element"></div>
+        <div class="info">
+            <p>Stop worrying about your ROI</p>
+            <h2>Start celebrating it.</h2>
+            <p class="CTA-Button"><a href="#">Get a free demo</a></p>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/1/FN_Picky-Eaters-Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.616.462.suffix/1383770571120.jpeg" alt="">
+        <div class="circle-element"></div>
+        <div class="info">
+            <p>Stop avoiding your channel</p>
+            <h2>Start driving it.</h2>
+            <p class="CTA-Button"><a href="#">Get a free demo</a></p>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/4/8/4/WU1004H_Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.616.462.suffix/1428675741536.jpeg" alt="">
+        <div class="circle-element"></div>
+        <div class="info">
+            <p>Stop fearing your competitors</p>
+            <h2>Start beating them</h2>
+            <p class="CTA-Button"><a href="#">Get a free demo</a></p>
+        </div>
+    </div>
+    <div class="slide">
+        <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/1/FN_Picky-Eaters-Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.616.462.suffix/1383770571120.jpeg" alt="">
+        <div class="circle-element"></div>
+        <div class="info">
+            <p>Stop counting your channel providers</p>
+            <h2>Start counting on one.</h2>
+            <p class="CTA-Button"><a href="#">Get a free demo</a></p>
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="btn active"><i class="fas fa-address-card"></i></div>
+        <div class="btn"><i class="fas fa-chart-line"></i></div>
+        <div class="btn"><i class="fas fa-running"></i></div>
+        <div class="btn"><i class="fas fa-address-card"></i></div>
+        <div class="btn"><i class="far fa-abacus"></i></div>
+    </div>
+
+    <script type="text/javascript">
+        var slides = document.querySelectorAll('.slide');
+        var btns = document.querySelectorAll('.btn');
+        let currentSlide = 1;
+    
+        // Javascript for image slider manual navigation
+        var manualNav = function(manual){
+          slides.forEach((slide) => {
+            slide.classList.remove('active');
+    
+            btns.forEach((btn) => {
+              btn.classList.remove('active');
+            });
+          });
+    
+          slides[manual].classList.add('active');
+          btns[manual].classList.add('active');
+        }
+    
+        btns.forEach((btn, i) => {
+          btn.addEventListener("click", () => {
+            manualNav(i);
+            currentSlide = i;
+          });
+        });
+    
+        // Javascript for image slider autoplay navigation
+        var repeat = function(activeClass){
+          let active = document.getElementsByClassName('active');
+          let i = 1;
+    
+          var repeater = () => {
+            setTimeout(function(){
+              [...active].forEach((activeSlide) => {
+                activeSlide.classList.remove('active');
+              });
+    
+            slides[i].classList.add('active');
+            btns[i].classList.add('active');
+            i++;
+    
+            if(slides.length == i){
+              i = 0;
+            }
+            if(i >= slides.length){
+              return;
+            }
+            repeater();
+          }, 5000);
+          }
+          repeater();
+        }
+        repeat();
+        </script>
+  </div> 
+</body>
+</html>
